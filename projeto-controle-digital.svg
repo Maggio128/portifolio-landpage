@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Painel de proteção e medição de subestação elétrica</title>
+  <desc id="desc">Ilustração de painéis de controle com amperímetros, wattímetros e relés de sobrecorrente.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e8e8e6"/><stop offset="1" stop-color="#c9cccd"/></linearGradient>
+    <linearGradient id="cabinet" x2="0" y2="1"><stop stop-color="#68727b"/><stop offset="1" stop-color="#404b55"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#17202a" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="900" height="600" fill="url(#wall)"/>
+  <path d="M0 470h900v130H0z" fill="#9a9e9f"/><path d="M0 490h900" stroke="#858b8e" stroke-width="4"/>
+  <rect x="82" y="48" width="736" height="424" rx="12" fill="#343d45" filter="url(#shadow)"/>
+  <g fill="url(#cabinet)" stroke="#aeb5b8" stroke-width="3">
+    <rect x="104" y="68" width="222" height="382" rx="5"/><rect x="339" y="68" width="222" height="382" rx="5"/><rect x="574" y="68" width="222" height="382" rx="5"/>
+  </g>
+  <g fill="#dce0df" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+    <text x="215" y="91">TRANSFORMADOR T1</text><text x="450" y="91">PROTEÇÃO E MEDIÇÃO</text><text x="685" y="91">ALIMENTADOR 13,8 kV</text>
+  </g>
+  <g fill="#f2f0e9" stroke="#222c35" stroke-width="4">
+    <circle cx="164" cy="145" r="30"/><circle cx="266" cy="145" r="30"/><circle cx="399" cy="145" r="30"/><circle cx="501" cy="145" r="30"/><circle cx="634" cy="145" r="30"/><circle cx="736" cy="145" r="30"/>
+  </g>
+  <g stroke="#ed8a48" stroke-width="4" stroke-linecap="round">
+    <path d="M164 145l12-18M266 145l-10-20M399 145l14-17M501 145l-12-19M634 145l15-15M736 145l-11-19"/>
+  </g>
+  <g fill="#eef0ed" font-family="Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle">
+    <text x="164" y="184">A — CORRENTE</text><text x="266" y="184">W — POTÊNCIA</text><text x="399" y="184">A — FASES</text><text x="501" y="184">W — ATIVA</text><text x="634" y="184">A — LINHA</text><text x="736" y="184">W — CARGA</text>
+  </g>
+  <g>
+    <rect x="128" y="205" width="174" height="91" rx="4" fill="#202a32" stroke="#bbc0c1" stroke-width="2"/>
+    <rect x="363" y="205" width="174" height="91" rx="4" fill="#202a32" stroke="#bbc0c1" stroke-width="2"/>
+    <rect x="598" y="205" width="174" height="91" rx="4" fill="#202a32" stroke="#bbc0c1" stroke-width="2"/>
+  </g>
+  <g fill="#29333b" stroke="#aeb7ba" stroke-width="2">
+    <rect x="143" y="217" width="68" height="55" rx="4"/><rect x="219" y="217" width="68" height="55" rx="4"/>
+    <rect x="378" y="217" width="68" height="55" rx="4"/><rect x="454" y="217" width="68" height="55" rx="4"/>
+    <rect x="613" y="217" width="68" height="55" rx="4"/><rect x="689" y="217" width="68" height="55" rx="4"/>
+  </g>
+  <g fill="#f3f1e9" font-family="Arial,sans-serif" text-anchor="middle">
+    <text x="177" y="239" font-size="12" font-weight="700">RELÉ 50</text><text x="177" y="257" font-size="9">SOBRECORRENTE</text>
+    <text x="253" y="239" font-size="12" font-weight="700">RELÉ 51</text><text x="253" y="257" font-size="9">TEMPO INVERSO</text>
+    <text x="412" y="239" font-size="12" font-weight="700">RELÉ 50</text><text x="412" y="257" font-size="9">FASE / TERRA</text>
+    <text x="488" y="239" font-size="12" font-weight="700">RELÉ 51</text><text x="488" y="257" font-size="9">PROTEÇÃO T1</text>
+    <text x="647" y="239" font-size="12" font-weight="700">RELÉ 50</text><text x="647" y="257" font-size="9">SOBRECORRENTE</text>
+    <text x="723" y="239" font-size="12" font-weight="700">RELÉ 51</text><text x="723" y="257" font-size="9">ALIMENTADOR</text>
+  </g>
+  <g fill="#f1eee5" stroke="#303943" stroke-width="2">
+    <rect x="129" y="316" width="172" height="106" rx="3"/><rect x="364" y="316" width="172" height="106" rx="3"/><rect x="599" y="316" width="172" height="106" rx="3"/>
+  </g>
+  <g fill="none" stroke="#d4773e" stroke-width="3">
+    <path d="M146 344h48v28h42v-28h47M146 395h36v-24h40v24h61"/><path d="M381 344h42v28h40v-28h57M381 395h38v-24h41v24h60"/><path d="M616 344h44v28h41v-28h53M616 395h39v-24h38v24h61"/>
+  </g>
+  <g fill="#a8e0b1" stroke="#273039" stroke-width="2"><circle cx="148" cy="435" r="6"/><circle cx="383" cy="435" r="6"/><circle cx="618" cy="435" r="6"/></g>
+  <g fill="#ec794b" stroke="#273039" stroke-width="2"><circle cx="169" cy="435" r="6"/><circle cx="404" cy="435" r="6"/><circle cx="639" cy="435" r="6"/></g>
+  <g fill="#e9eceb" font-family="Arial,sans-serif" font-size="10" font-weight="700">
+    <text x="184" y="439">COMANDO</text><text x="419" y="439">TRIP / ALARME</text><text x="654" y="439">STATUS</text>
+  </g>
+  <rect x="407" y="478" width="86" height="24" rx="12" fill="#59636b"/><text x="450" y="494" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#fff">PAINEL MT</text>
+</svg>
