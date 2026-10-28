@@ -407,3 +407,22 @@ body {
         margin-right: auto;
     }
 }
+.btn-map {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background: var(--accent-color);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-map:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+}
+.form-honeypot {
+    display: none !important;
+}
